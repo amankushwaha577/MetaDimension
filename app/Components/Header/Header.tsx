@@ -57,18 +57,16 @@ function Header() {
       </nav>
       <div className="header-content">
         <div className="text-content">
-          <h1 className={abril.className}>
-            Buy, collect, and sell extraordinary NFTs
-          </h1>
+          <h1 className={abril.className}>Welocome To Amanzone</h1>
           <p>
-            Acquire expertise in navigating the rapidly evolving and
-            exhilarating NFT landscape, unveil the highly sought-after NFTs, and
-            comprehend the possible advantages and disadvantages of acquiring,
-            amassing, and vending these exceptional digital assets.
+            Join Together, Innovate Together: Let's Build Projects! Are you
+            passionate about creating something extraordinary? Whether you're a
+            seasoned developer or just starting out, our collaborative platform
+            invites you to team up and embark on exciting projects together.
           </p>
           <div className="buttons">
             <Button
-              name="Get Started"
+              name="Join Development"
               background="#f2994a"
               color="#fff"
               border="1px solid #f2994a"
