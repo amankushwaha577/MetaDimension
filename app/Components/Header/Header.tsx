@@ -34,7 +34,7 @@ function Header() {
       <nav>
         <div className="logo">
           <Image src={logo} alt="logo" width={36} />
-          <h2>Logo</h2>
+          <h2>AmanZone</h2>
         </div>
         <div className="input">
           <input type="text" placeholder="Search" />
@@ -44,13 +44,13 @@ function Header() {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">Auctions</a>
+            <a href="#">Development</a>
           </li>
           <li>
-            <a href="#">Marketplace</a>
+            <a href="#">Collab</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#">Projects</a>
           </li>
           <Button name="Connect Wallet" icon={<FaWallet />} />
         </ul>
