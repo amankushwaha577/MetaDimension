@@ -85,8 +85,8 @@ function Header() {
             }}
           >
             <Image
-              src="/images/monkey.png"
-              width={600}
+              src="/images/profile.jpg"
+              width={400}
               height={600}
               alt="hero"
               style={{
