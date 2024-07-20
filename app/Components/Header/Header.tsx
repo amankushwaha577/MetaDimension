@@ -8,7 +8,8 @@ import styled from "styled-components";
 import { FaRocket, FaWallet } from "react-icons/fa";
 import { Abril_Fatface } from "next/font/google";
 import hover3d from "../../utils/hover";
-
+import development from '../Icons/development.svg'
+import collab from '../Icons/Collab.svg'
 const abril = Abril_Fatface({
   subsets: ["latin"],
   weight: "400",
@@ -41,18 +42,12 @@ function Header() {
         </div>
         <ul className="nav-items">
           <li>
-            <a href="#">Home</a>
+            <a href="#" className="icons"><Image src={development} alt="logo" width={28} />Development</a>
           </li>
           <li>
-            <a href="#">Development</a>
+            <a href="#" className="icons"><Image src={collab} alt="logo" width={28} />Collab</a>
           </li>
-          <li>
-            <a href="#">Collab</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <Button name="Connect Wallet" icon={<FaWallet />} />
+          <Button name="Connect" icon={<FaWallet />} />
         </ul>
       </nav>
       <div className="header-content">
@@ -108,6 +103,13 @@ const HeaderStyled = styled.header`
     align-items: center;
     .logo {
       display: flex;
+      align-items: center;
+      gap: 1rem;
+      cursor: pointer;
+    }
+
+    .icons{
+    display: flex;
       align-items: center;
       gap: 1rem;
       cursor: pointer;
